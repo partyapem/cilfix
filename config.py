@@ -16,12 +16,12 @@ class Config:
         'ɢᴀʙᴜɴɢ ᴅᴜʟᴜ, ʟᴀʟᴜ ᴛᴇᴋᴀɴ ᴛᴏᴍʙᴏʟ ᴄᴏʙᴀ ʟᴀɢɪ.'
     )
 
-    API_ID = int(os.environ.get('API_ID', 27538621))
-    API_HASH = os.environ.get('API_HASH', '24c338d23154f5ea8adb9fc684a4a06f')
-    OWNER_ID = int(os.environ.get('OWNER_ID', 487936750))
+    API_ID = int(os.environ.get('API_ID', '17515112'))
+    API_HASH = os.environ.get('API_HASH', '472028a7357552495b7b67a1117df121')
+    OWNER_ID = int(os.environ.get('OWNER_ID', '5250806760'))
     MONGO_URL = os.environ.get('MONGO_URL', 'mongodb://root:passwd@mongo')
 
-    BOT_TOKEN = os.environ.get('BOT_TOKEN', '')
+    BOT_TOKEN = os.environ.get('BOT_TOKEN', '7892490928:AAEmBXe0VQQOR5Xy8EUKboB_gr_QWhnxJUM')
     DATABASE_ID = int(os.environ.get('DATABASE_ID', '-1002386387886'))
 
     BOT_ID = BOT_TOKEN.split(':', 1)[0]
